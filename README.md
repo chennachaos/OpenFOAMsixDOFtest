@@ -8,7 +8,7 @@ For solving six DOF rigid body problems in OpenFOAM, three different time integr
 
 However, of the three, only Symplectic scheme produces correct results. The current implementations of Newmark and Crank-Nicolson schemes are incorrect.
 
-To test the schemes, a circular cylinder supported on a spring and damper in transverse (Y-) direction is considered. The fluid velocity and pressure are zero so that the force exerted by the fluid on the cylinder is zero. The initial velocity is taken as 5. The graphs below show the displacement values obtained with different schemes for two different time steps, 0.002 and 0.001.
+To test the schemes, a circular cylinder supported on a spring and damper in transverse (Y-) direction is considered. The fluid velocity and pressure are zero so that the force exerted by the fluid on the cylinder is zero. The initial velocity is taken as 5. The graphs below show the displacement values obtained with different schemes for two different time steps, 0.002 and 0.001. OpenFOAM case files are available in the repository.
 
 ### Symplectic scheme
 
